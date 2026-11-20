@@ -1,7 +1,6 @@
 <div align="center">
 
-<!-- Header banner using the VeraTrade color palette -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0,1B4F8A,0E7C86&height=200&section=header&text=Mina%20Ioshida&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Data%20Engineer%20to%20AI%20Engineering%20%C2%B7%20Builder&descAlignY=58&descSize=18&descColor=BDD7EE" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0,1B4F8A,0E7C86&height=200&section=header&text=Mina%20Ioshida&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Chemistry%20%C2%B7%20Data%20%C2%B7%20Bioinformatics&descAlignY=58&descSize=18&descColor=BDD7EE" width="100%"/>
 
 </div>
 
@@ -9,111 +8,86 @@
 
 ## 👋 Hi, I'm Mina
 
-I'm a **Data Engineer** with a rare background that spans Chemical Engineering, Systems Analysis, and years of hands-on work in **Data Governance & Data Quality** — now applying that foundation to AI engineering. I don't just build pipelines — I build ones you can actually trust.
+I started in the lab, moved into planning data, and now I'm moving into bioinformatics.
 
-Currently deepening my engineering stack and building toward reliable, production-grade AI systems — starting from the same principle that's shaped everything I've built so far: trustworthy data first.
+I have a degree in Chemistry and more than 15 years of industry experience. First as an Application Engineer for lab instruments (atomic absorption, gas and liquid chromatography), and now as an EMEA Demand Planner, where I work with forecasts and supply chain data every day.
+
+On GitHub I build data pipelines to learn data engineering properly. My focus is simple: data you can check and trust. That matters for a sales forecast, and it matters even more for biological data.
 
 ---
 
-## 🛠️ Tech Stack
+## 🌱 What I'm learning now
 
-**Languages & Query**
+- 🧬 **Molecular Biology @home** at Howest University of Applied Sciences (Belgium)
+- 🎯 Next step: the **Bioinformatics @home** Advanced Bachelor
+- 🛠️ Data engineering: pipelines, testing and data quality
+
+---
+
+## 🛠️ Tools I use in my projects
 
 ![Python](https://img.shields.io/badge/Python-1B4F8A?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-0E7C86?style=for-the-badge&logo=postgresql&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-1B4F8A?style=for-the-badge&logo=gnubash&logoColor=white)
-
-**Orchestration & Pipelines**
-
-![Dagster](https://img.shields.io/badge/Dagster-0E7C86?style=for-the-badge&logo=dagster&logoColor=white)
-![Apache Airflow](https://img.shields.io/badge/Airflow-1B4F8A?style=for-the-badge&logo=apacheairflow&logoColor=white)
-![Apache Spark](https://img.shields.io/badge/Spark-0E7C86?style=for-the-badge&logo=apachespark&logoColor=white)
-
-**Transformation & Storage**
-
-![dbt](https://img.shields.io/badge/dbt-1B4F8A?style=for-the-badge&logo=dbt&logoColor=white)
-![DuckDB](https://img.shields.io/badge/DuckDB-0E7C86?style=for-the-badge&logo=duckdb&logoColor=white)
-![Snowflake](https://img.shields.io/badge/Snowflake-1B4F8A?style=for-the-badge&logo=snowflake&logoColor=white)
-
-**Governance & Quality**
-
-![Data Governance](https://img.shields.io/badge/Data%20Governance-0E7C86?style=for-the-badge&logoColor=white)
-![Data Contracts](https://img.shields.io/badge/Data%20Contracts-1B4F8A?style=for-the-badge&logoColor=white)
-![Data Quality](https://img.shields.io/badge/Data%20Quality-0E7C86?style=for-the-badge&logoColor=white)
+![DuckDB](https://img.shields.io/badge/DuckDB-1B4F8A?style=for-the-badge&logo=duckdb&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-0E7C86?style=for-the-badge&logo=dbt&logoColor=white)
+![Dagster](https://img.shields.io/badge/Dagster-1B4F8A?style=for-the-badge&logo=dagster&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-0E7C86?style=for-the-badge&logo=streamlit&logoColor=white)
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Featured project
 
-### 📈 [VeraTrade — High-Veracity Crypto Data Platform](https://github.com/hellofrommina/crypto-data)
+### 📈 [VeraTrade: a crypto data pipeline with built-in data quality](https://github.com/hellofrommina/crypto-data)
 
-> *"Veritas" (truth) + Trading. Because data you can't trust is just noise.*
+> *"Veritas" (truth) + Trading. Data you can't trust is just noise.*
 
-A **production-grade local Data Lakehouse** built with:
+A local data lakehouse that collects BTC and ETH market data, cleans it, tests it and shows it in a dashboard.
 
-| Layer | Technology | Purpose |
+| Layer | Tool | What it does |
 |---|---|---|
-| **Ingestion** | Python + PyArrow | CoinGecko API → Parquet |
-| **Storage** | DuckDB | In-process analytical engine |
-| **Transformation** | dbt (Staging → Marts) | Modular, tested models |
-| **Orchestration** | Dagster (SDAs) | Asset lineage & observability |
-| **Analytics** | Streamlit | Real-time BTC/ETH dashboard |
-| **Quality** | dbt tests + Data Contracts | 3/3 checks · 0% nulls enforced |
+| Ingestion | Python + PyArrow | CoinGecko API → Parquet files |
+| Storage | DuckDB | Fast local analytics |
+| Transformation | dbt (staging → marts) | Modular, tested models |
+| Orchestration | Dagster (software-defined assets) | Lineage and monitoring |
+| Quality | dbt tests + data contracts | Checks for nulls, types and rules |
+| Dashboard | Streamlit | BTC/ETH prices and trends |
 
-**What makes it different:** Governance and data quality are baked in from day one — not bolted on as an afterthought.
-
----
-
-## 🧭 What I Believe About Data (and now, AI)
-
-```
-Good engineering is not just about moving fast.
-It's about making systems trustworthy — at the source,
-through the pipeline, and at the point of decision.
-```
-
-That philosophy comes from years of working in **Data Governance** — seeing what breaks when quality is treated as optional. I'm bringing that same lens to AI systems now.
+**Why I built it this way:** data quality is part of the design from the first step, not something added at the end.
 
 ---
 
-## 📊 GitHub Stats
+## 🎓 Background
+
+- 🔬 **Bachelor's degree in Chemistry**
+- 💻 **Technologist degree in Systems Analysis and Development**
+- 📋 **PMP** (Project Management Professional)
+- 🧪 Application Engineer → EMEA Demand Planner, 15+ years in the analytical instruments industry
+
+---
+
+## 📊 GitHub stats
 
 <div align="center">
 
-![hellofrommina GitHub Stats](https://github-readme-stats.vercel.app/api?username=hellofrommina&show_icons=true&theme=tokyonight&hide_border=true&title_color=0E7C86&icon_color=0E7C86&text_color=BDD7EE&bg_color=0D1117)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hellofrommina&layout=compact&theme=tokyonight&hide_border=true&title_color=0E7C86&text_color=BDD7EE&bg_color=0D1117)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=hellofrommina&show_icons=true&theme=tokyonight&hide_border=true&title_color=0E7C86&icon_color=0E7C86&text_color=BDD7EE&bg_color=0D1117)
 
 </div>
 
 ---
 
-## 🎓 Background & Certifications
+## 🤝 Let's connect
 
-- 🔬 **B.Sc. Chemical Engineering** — analytical thinking & process integrity
-- 💻 **B.Sc. Systems Analysis & Development** — software & systems foundations
-- 📋 **PMP (Project Management Professional)** — bridging technical and business
-- 📐 Currently completing an **AI Engineering Roadmap**, built on a Data Engineering foundation (Dagster · Spark · Cloud · dbt)
+I'm happy to talk about:
 
----
-
-## 🤝 Let's Connect
-
-I'm open to:
-
-- 🛠️ **Freelance & consulting** — data pipelines, data quality/governance, and AI engineering projects
-- 🔍 **Data Governance & Quality consulting** projects
-- 🤖 **AI engineering** collaborations and gigs
-- 💬 Conversations about data quality, governance frameworks, or the data-to-AI-engineer transition
+- 🧬 Moving from industry into bioinformatics
+- 🔍 Data quality and data pipelines
+- 🤝 Small collaborations on data or life-science projects
 
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Mina%20Ioshida-1B4F8A?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/minaioshida/)
-[![GitHub](https://img.shields.io/badge/GitHub-hellofrommina-0E7C86?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hellofrommina)
 
 </div>
-
----
 
 <div align="center">
 
